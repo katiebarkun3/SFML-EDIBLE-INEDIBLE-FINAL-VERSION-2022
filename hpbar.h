@@ -4,9 +4,8 @@
 class Hpbar
 {
 public:
-	sf::Image image;
-	sf::Texture texture;
 	sf::Sprite sprite;
+	sf::Texture texture;
 	int max;
 	sf::RectangleShape bar;
 	Hpbar();
