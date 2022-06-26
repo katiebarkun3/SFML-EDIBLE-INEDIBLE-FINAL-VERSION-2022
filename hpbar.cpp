@@ -2,8 +2,7 @@
 
 Hpbar::Hpbar()
 {
-	image.loadFromFile(IMAGES_FOLDER + HPBAR_FILE_NAME);
-	texture.loadFromImage(image);
+	texture.loadFromFile(IMAGES_FOLDER + HPBAR_FILE_NAME);
 	sprite.setTexture(texture);
 	bar.setFillColor(sf::Color(0, 0, 0));
 	max = 100;
