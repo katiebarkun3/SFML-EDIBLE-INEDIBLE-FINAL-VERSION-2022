@@ -18,23 +18,19 @@ void Hpbar::update(int k)
 		bar.setSize(sf::Vector2f(0, 0));
 	}
 	if (k <= 100 && k > 70) {
-		image.loadFromFile(IMAGES_FOLDER + HPBAR_FILE_NAME);
-		texture.loadFromImage(image);
+		texture.loadFromFile(IMAGES_FOLDER + HPBAR_FILE_NAME);
 		sprite.setTexture(texture);
 	}
 	if (k < 70 && k > 50) {
-		image.loadFromFile(IMAGES_FOLDER + HPBAR_YELLOW_FILE_NAME);
-		texture.loadFromImage(image);
+		texture.loadFromFile(IMAGES_FOLDER + HPBAR_YELLOW_FILE_NAME);
 		sprite.setTexture(texture);
 	}
 	if (k < 50 && k > 30) {
-		image.loadFromFile(IMAGES_FOLDER + HPBAR_ORANGE_FILE_NAME);
-		texture.loadFromImage(image);
+		texture.loadFromFile(IMAGES_FOLDER + HPBAR_ORANGE_FILE_NAME);
 		sprite.setTexture(texture);
 	}
 	if (k < 30 && k > 0) {
-		image.loadFromFile(IMAGES_FOLDER + HPBAR_RED_FILE_NAME);
-		texture.loadFromImage(image);
+		texture.loadFromFile(IMAGES_FOLDER + HPBAR_RED_FILE_NAME);
 		sprite.setTexture(texture);
 	}
 	
